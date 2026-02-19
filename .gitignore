@@ -1,0 +1,14 @@
+.env
+/src/.env
+/src/vendor/
+/src/node_modules/
+/src/public/build/
+/src/public/storage
+/src/storage/*.key
+/src/storage/framework/cache/data/*
+/src/storage/framework/sessions/*
+/src/storage/framework/testing/*
+/src/storage/framework/views/*
+/src/storage/logs/*.log
+/src/.phpunit.result.cache
+.DS_Store

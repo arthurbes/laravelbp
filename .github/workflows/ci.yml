@@ -76,5 +76,6 @@ jobs:
           DB_DATABASE: laravelbp_test
           DB_PORT: 3306
           DB_USERNAME: root
+          DB_PASSWORD: ""
           REDIS_HOST: 127.0.0.1
         run: php artisan test --parallel

@@ -12,6 +12,8 @@ parameters:
     # Level 5 is a good baseline for a boilerplate
     level: 5
 
+    reportUnmatchedIgnoredErrors: false
+
     ignoreErrors:
         - '#Access to constant ATTR_SSL_CA on an unknown class Pdo\\Mysql\.#'
 
